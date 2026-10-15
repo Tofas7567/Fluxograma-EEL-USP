@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluxograma – EEL-USP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVBAR FIXA
+  ══════════════════════════════════════════ -->
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+
+    <span class="navbar-brand">⚗ EEL-USP</span>
+
+    <div class="navbar-divider" aria-hidden="true"></div>
+
+    <!-- Seletor de curso (preenchido pelo script.js a partir de data/cursos.json) -->
+  <label class="visually-hidden" for="course-select">Curso</label>
+  <select id="course-select" class="course-select" title="Escolher curso"></select>
+
+  <div class="navbar-divider" aria-hidden="true"></div>
+
+    <!-- Legenda -->
+    <div class="legend" aria-label="Legenda">
+      <div class="legend-item">
+        <div class="legend-line weak" aria-hidden="true"></div>
+        <span>Pré-req. fraco</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-line strong" aria-hidden="true"></div>
+        <span>Pré-req. forte</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-line dependent" aria-hidden="true"></div>
+        <span>Dependentes</span>
+      </div>
+    </div>
+
+    <!-- Botão limpar -->
+    <button id="btn-clear" class="btn btn-clear"
+            title="Limpar seleção atual">
+      ✕ Limpar seleção
+    </button>
+
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       SVG GLOBAL DE SETAS (cobre toda a tela)
+       Inclui: setas de pré-requisitos (amarelo/vermelho)
+               e setas de dependentes (verde)
+  ══════════════════════════════════════════ -->
+  <svg id="arrows-svg" aria-hidden="true" focusable="false">
+    <defs>
+      <!-- Marcador: ponta de seta para pré-requisito FRACO (amarelo) -->
+      <marker id="arrowhead-weak"
+              markerWidth="10" markerHeight="7"
+              refX="9" refY="3.5"
+              orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7"
+                 fill="#e6b800" opacity="0.9" />
+      </marker>
+
+      <!-- Marcador: ponta de seta para pré-requisito FORTE (vermelho) -->
+      <marker id="arrowhead-strong"
+              markerWidth="10" markerHeight="7"
+              refX="9" refY="3.5"
+              orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7"
+                 fill="#e63030" opacity="0.95" />
+      </marker>
+
+      <!-- Marcador: ponta de seta para disciplinas DEPENDENTES (verde) -->
+      <marker id="arrowhead-dependent"
+              markerWidth="10" markerHeight="7"
+              refX="9" refY="3.5"
+              orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7"
+                 fill="#2ecc71" opacity="0.9" />
+      </marker>
+    </defs>
+    <!-- As setas são inseridas aqui dinamicamente pelo script.js -->
+  </svg>
+
+  <!-- ══════════════════════════════════════════
+       CONTEÚDO PRINCIPAL
+  ══════════════════════════════════════════ -->
+  <main class="content" role="main">
+
+    <h1 id="course-title" class="course-title">
+      Carregando…
+    </h1>
+
+    <p class="course-hint">
+      💡 Clique em uma disciplina para ver seus pré-requisitos (setas de entrada) e as matérias que dependem dela (setas de saída).
+    </p>
+
+    <!-- Grid de semestres (preenchido pelo script.js) -->
+    <div id="grid" class="grid" role="list" aria-label="Grade curricular por semestre">
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

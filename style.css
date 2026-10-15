@@ -1,0 +1,444 @@
+/* ============================================================
+   Fluxograma Interativo – Engenharia Química
+   style.css
+   ============================================================ */
+
+/* ── Reset & Base ─────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Paleta principal */
+  --color-bg:           #0f1117;
+  --color-surface:      #1a1d27;
+  --color-surface-alt:  #22263a;
+  --color-border:       #2e3250;
+  --color-text:         #e2e6f3;
+  --color-text-muted:   #8891b5;
+  --color-accent:       #4a7cff;
+  --color-accent-hover: #6b96ff;
+
+  /* Semestre header */
+  --color-sem-header:   #252a40;
+  --color-sem-border:   #3a4070;
+
+  /* Estados de disciplina */
+  --color-selected-bg:     #1e3a6e;
+  --color-selected-border: #4a7cff;
+  --color-selected-glow:   rgba(74, 124, 255, 0.35);
+
+  --color-weak-bg:     #3a2e00;
+  --color-weak-border: #e6b800;
+  --color-weak-glow:   rgba(230, 184, 0, 0.30);
+
+  --color-strong-bg:     #3a0a0a;
+  --color-strong-border: #e63030;
+  --color-strong-glow:   rgba(230, 48, 48, 0.30);
+
+  --color-dependent-bg:     #0a3a1a;
+  --color-dependent-border: #2ecc71;
+  --color-dependent-glow:   rgba(46, 204, 113, 0.30);
+
+  /* Setas */
+  --arrow-weak:       #e6b800;
+  --arrow-strong:     #e63030;
+  --arrow-dependent:  #2ecc71;
+
+  /* Layout */
+  --navbar-height: 64px;
+  --card-width:    180px;
+  --card-gap:      10px;
+  --sem-gap:       20px;
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  overflow-x: auto;
+}
+
+/* ── Navbar ───────────────────────────────────────────────── */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--navbar-height);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 24px;
+  z-index: 1000;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.5);
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+.navbar-divider {
+  width: 1px;
+  height: 28px;
+  background: var(--color-border);
+  margin: 0 4px;
+}
+
+/* ── Botões da Navbar ─────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s, border-color 0.18s, color 0.18s, box-shadow 0.18s;
+  white-space: nowrap;
+  background: transparent;
+  color: var(--color-text-muted);
+}
+
+.btn:hover {
+  background: var(--color-surface-alt);
+  color: var(--color-text);
+}
+
+.btn-course {
+  border-color: var(--color-border);
+}
+
+.btn-course.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+  box-shadow: 0 0 12px rgba(74,124,255,0.4);
+}
+
+.btn-course.active:hover {
+  background: var(--color-accent-hover);
+}
+
+.btn-clear {
+  border-color: var(--color-border);
+  margin-left: auto;
+}
+
+.btn-clear:hover {
+  border-color: #e63030;
+  color: #e63030;
+}
+
+/* ── Legenda ──────────────────────────────────────────────── */
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-left: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.legend-line {
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.legend-line.weak {
+  background: var(--arrow-weak);
+  border-top: 2px dashed var(--arrow-weak);
+  background: transparent;
+}
+
+.legend-line.strong {
+  background: var(--arrow-strong);
+}
+
+/* ── Área de conteúdo ─────────────────────────────────────── */
+.content {
+  margin-top: var(--navbar-height);
+  padding: 24px 24px 48px;
+}
+
+/* ── Título do curso ──────────────────────────────────────── */
+.course-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-border);
+  letter-spacing: 0.01em;
+}
+
+.course-hint {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+/* ── Grid de semestres ────────────────────────────────────── */
+.grid {
+  display: flex;
+  flex-direction: row;
+  gap: var(--sem-gap);
+  align-items: flex-start;
+  width: max-content;
+  min-width: 100%;
+}
+
+/* ── Coluna de semestre ───────────────────────────────────── */
+.semester-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--card-gap);
+  width: var(--card-width);
+  flex-shrink: 0;
+}
+
+/* ── Cabeçalho do semestre ────────────────────────────────── */
+.semester-header {
+  background: var(--color-sem-header);
+  border: 1px solid var(--color-sem-border);
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-accent);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Card de disciplina ───────────────────────────────────── */
+.disc-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 10px 10px 8px;
+  cursor: pointer;
+  transition:
+    background 0.18s,
+    border-color 0.18s,
+    box-shadow 0.18s,
+    transform 0.12s;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  user-select: none;
+  position: relative;
+}
+
+.disc-card:hover {
+  background: var(--color-surface-alt);
+  border-color: var(--color-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(74,124,255,0.2);
+}
+
+/* Código */
+.disc-code {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  letter-spacing: 0.06em;
+  font-family: 'Courier New', monospace;
+}
+
+/* Nome */
+.disc-name {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: 1.35;
+}
+
+/* Créditos */
+.disc-credits {
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+/* ── Estados de destaque ──────────────────────────────────── */
+
+/* Disciplina selecionada */
+.disc-card.selected {
+  background: var(--color-selected-bg);
+  border-color: var(--color-selected-border);
+  box-shadow: 0 0 0 2px var(--color-selected-glow), 0 4px 18px rgba(74,124,255,0.3);
+  transform: translateY(-2px);
+}
+
+.disc-card.selected .disc-code {
+  color: #7aaeff;
+}
+
+.disc-card.selected .disc-name {
+  color: #c8d8ff;
+}
+
+/* Pré-requisito fraco (amarelo) */
+.disc-card.prereq-weak {
+  background: var(--color-weak-bg);
+  border-color: var(--color-weak-border);
+  box-shadow: 0 0 0 2px var(--color-weak-glow), 0 4px 14px rgba(230,184,0,0.2);
+}
+
+.disc-card.prereq-weak .disc-code {
+  color: #f0c800;
+}
+
+.disc-card.prereq-weak .disc-name {
+  color: #ffe87a;
+}
+
+/* Pré-requisito forte (vermelho) */
+.disc-card.prereq-strong {
+  background: var(--color-strong-bg);
+  border-color: var(--color-strong-border);
+  box-shadow: 0 0 0 2px var(--color-strong-glow), 0 4px 14px rgba(230,48,48,0.2);
+}
+
+.disc-card.prereq-strong .disc-code {
+  color: #ff7070;
+}
+
+.disc-card.prereq-strong .disc-name {
+  color: #ffb0b0;
+}
+
+/* Disciplina dependente (verde) */
+.disc-card.dependent {
+  background: var(--color-dependent-bg);
+  border-color: var(--color-dependent-border);
+  box-shadow: 0 0 0 2px var(--color-dependent-glow), 0 4px 14px rgba(46,204,113,0.2);
+}
+
+.disc-card.dependent .disc-code {
+  color: #5dde8f;
+}
+
+.disc-card.dependent .disc-name {
+  color: #a8f5c0;
+}
+
+/* ── SVG de setas (cobre toda a viewport) ─────────────────── */
+#arrows-svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 500;
+  overflow: visible;
+}
+
+/* ── Estilos de seta (path) ───────────────────────────────── */
+.arrow-weak {
+  fill: none;
+  stroke: var(--arrow-weak);
+  stroke-width: 2;
+  stroke-dasharray: 6 4;
+  opacity: 0.85;
+}
+
+.arrow-strong {
+  fill: none;
+  stroke: var(--arrow-strong);
+  stroke-width: 2.5;
+  opacity: 0.9;
+}
+
+.arrow-dependent {
+  fill: none;
+  stroke: var(--arrow-dependent);
+  stroke-width: 2;
+  opacity: 0.85;
+}
+
+/* ── Scrollbar personalizada ──────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ── Responsividade ───────────────────────────────────────── */
+@media (max-width: 768px) {
+  :root {
+    --card-width: 150px;
+    --sem-gap: 12px;
+  }
+
+  .navbar-brand {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+
+  .legend {
+    display: none;
+  }
+}
+
+/* ── Seletor de curso ── */
+.course-select {
+  max-width: 280px;
+  padding: 7px 10px;
+  background: var(--color-surface-alt);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.course-select:hover { border-color: var(--color-accent); }
+.course-select:focus-visible { outline: 2px solid var(--color-accent-hover); outline-offset: 2px; }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
