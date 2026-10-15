@@ -1,0 +1,49 @@
+[
+ {
+  "unidade": "EEL – Lorena",
+  "cursos": [
+   {
+    "id": "eel-engenharia-ambiental-integral",
+    "nome": "Engenharia Ambiental",
+    "periodo": "integral",
+    "arquivo": "eel-engenharia-ambiental-integral.json"
+   },
+   {
+    "id": "eel-engenharia-bioquimica-integral",
+    "nome": "Engenharia Bioquímica",
+    "periodo": "integral",
+    "arquivo": "eel-engenharia-bioquimica-integral.json"
+   },
+   {
+    "id": "eel-engenharia-fisica-integral",
+    "nome": "Engenharia Física",
+    "periodo": "integral",
+    "arquivo": "eel-engenharia-fisica-integral.json"
+   },
+   {
+    "id": "eel-engenharia-quimica-integral",
+    "nome": "Engenharia Química",
+    "periodo": "integral",
+    "arquivo": "eel-engenharia-quimica-integral.json"
+   },
+   {
+    "id": "eel-engenharia-quimica-noturno",
+    "nome": "Engenharia Química",
+    "periodo": "noturno",
+    "arquivo": "eel-engenharia-quimica-noturno.json"
+   },
+   {
+    "id": "eel-engenharia-de-materiais-integral",
+    "nome": "Engenharia de Materiais",
+    "periodo": "integral",
+    "arquivo": "eel-engenharia-de-materiais-integral.json"
+   },
+   {
+    "id": "eel-engenharia-de-producao-noturno",
+    "nome": "Engenharia de Produção",
+    "periodo": "noturno",
+    "arquivo": "eel-engenharia-de-producao-noturno.json"
+   }
+  ]
+ }
+]

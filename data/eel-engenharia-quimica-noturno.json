@@ -1,0 +1,677 @@
+{
+ "id": "eel-engenharia-quimica-noturno",
+ "nome": "Engenharia Química",
+ "periodo": "noturno",
+ "semesters": [
+  {
+   "label": "1º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1003",
+     "name": "Cálculo I",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1009",
+     "name": "Leitura e Interpretação de Desenho Técnico",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1036",
+     "name": "Geometria Analítica",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3016",
+     "name": "Introdução à Ciência dos Materiais",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4010",
+     "name": "Introdução à Engenharia Química",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4097",
+     "name": "Fundamentos de Química para Engenharia I-A",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4102",
+     "name": "Nivelamento em Engenharia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "2º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1004",
+     "name": "Cálculo II",
+     "credits": 4,
+     "weak": [
+      "LOB1003",
+      "LOB1036"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1018",
+     "name": "Física I",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1037",
+     "name": "Álgebra Linear",
+     "credits": 4,
+     "weak": [
+      "LOB1036"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4095",
+     "name": "Química Geral Experimental",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4098",
+     "name": "Fundamentos de Química para Engenharia II-A",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4103",
+     "name": "Escrita Acadêmico Científica",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "3º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1019",
+     "name": "Física II",
+     "credits": 4,
+     "weak": [
+      "LOB1003",
+      "LOB1018"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1024",
+     "name": "Mecânica",
+     "credits": 4,
+     "weak": [
+      "LOB1036",
+      "LOB1018"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1038",
+     "name": "Física Experimental I",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1052",
+     "name": "Cálculo III",
+     "credits": 4,
+     "weak": [
+      "LOB1004"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1056",
+     "name": "Introdução aos Métodos Numéricos e Computacionais",
+     "credits": 4,
+     "weak": [
+      "LOB1036",
+      "LOB1004"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4053",
+     "name": "Balanços de Massa e Energia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "4º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1006",
+     "name": "Cálculo IV",
+     "credits": 4,
+     "weak": [
+      "LOB1004",
+      "LOB1037"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1012",
+     "name": "Estatística",
+     "credits": 4,
+     "weak": [
+      "LOB1004"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1039",
+     "name": "Física Experimental III",
+     "credits": 2,
+     "weak": [
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1053",
+     "name": "Física III",
+     "credits": 4,
+     "weak": [
+      "LOB1019",
+      "LOB1004"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4037",
+     "name": "Química Orgânica I",
+     "credits": 4,
+     "weak": [
+      "LOQ4097",
+      "LOQ4098"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4055",
+     "name": "Química Inorgânica",
+     "credits": 2,
+     "weak": [
+      "LOQ4097"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "5º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1011",
+     "name": "Eletricidade Aplicada",
+     "credits": 2,
+     "weak": [
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4038",
+     "name": "Química Orgânica II",
+     "credits": 4,
+     "weak": [
+      "LOQ4037"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4056",
+     "name": "Química Analítica para Engenharia",
+     "credits": 4,
+     "weak": [
+      "LOQ4098",
+      "LOQ4095",
+      "LOB1012"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4083",
+     "name": "Fenômenos de Transporte I",
+     "credits": 4,
+     "weak": [
+      "LOB1052",
+      "LOB1024"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4087",
+     "name": "Termodinâmica Química Aplicada I",
+     "credits": 4,
+     "weak": [
+      "LOB1019",
+      "LOB1004",
+      "LOQ4053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4234",
+     "name": "Empreendedorismo e Inovação",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "6º Semestre",
+   "disciplines": [
+    {
+     "id": "LOM3081",
+     "name": "Introdução à Mecânica dos Sólidos",
+     "credits": 2,
+     "weak": [
+      "LOB1024"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4001",
+     "name": "Análise Instrumental",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOQ4056"
+     ]
+    },
+    {
+     "id": "LOQ4084",
+     "name": "Fenômenos de Transporte II",
+     "credits": 4,
+     "weak": [
+      "LOB1006",
+      "LOB1019",
+      "LOQ4083"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4085",
+     "name": "Operações Unitárias I",
+     "credits": 4,
+     "weak": [
+      "LOQ4083"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4088",
+     "name": "Termodinâmica Química Aplicada II",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOQ4087"
+     ]
+    },
+    {
+     "id": "LOQ4264",
+     "name": "Engenharia da Sustentabilidade",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "7º Semestre",
+   "disciplines": [
+    {
+     "id": "LOQ4003",
+     "name": "Cinética Química Aplicada",
+     "credits": 4,
+     "weak": [
+      "LOQ4088"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4054",
+     "name": "Fenômenos de Transporte III",
+     "credits": 4,
+     "weak": [
+      "LOQ4084"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4060",
+     "name": "Laboratório de Engenharia Química I",
+     "credits": 4,
+     "weak": [
+      "LOQ4083"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4086",
+     "name": "Operações Unitárias II",
+     "credits": 4,
+     "weak": [
+      "LOQ4084"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2004",
+     "name": "Bioquímica",
+     "credits": 4,
+     "weak": [
+      "LOQ4038"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "8º Semestre",
+   "disciplines": [
+    {
+     "id": "LOM3022",
+     "name": "Materiais para a Indústria Química",
+     "credits": 2,
+     "weak": [
+      "LOM3016"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4002",
+     "name": "Reatores Químicos",
+     "credits": 4,
+     "weak": [
+      "LOQ4003"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4057",
+     "name": "Operações Unitárias III",
+     "credits": 4,
+     "weak": [
+      "LOQ4054"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4061",
+     "name": "Laboratório de Engenharia Química II",
+     "credits": 4,
+     "weak": [
+      "LOQ4083",
+      "LOQ4084"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4064",
+     "name": "Engenharia de Processos Químicos I",
+     "credits": 2,
+     "weak": [
+      "LOQ4054",
+      "LOQ4086"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2041",
+     "name": "Engenharia Bioquímica",
+     "credits": 4,
+     "weak": [
+      "LOT2004"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "9º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1046",
+     "name": "Engenharia do Meio Ambiente",
+     "credits": 2,
+     "weak": [
+      "LOQ4055"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4009",
+     "name": "Instrumentação na Indústria Química",
+     "credits": 4,
+     "weak": [
+      "LOQ4083",
+      "LOB1006"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4049",
+     "name": "Projeto na Indústria Química",
+     "credits": 2,
+     "weak": [
+      "LOQ4086",
+      "LOQ4002"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4059",
+     "name": "Polímeros",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOQ4038"
+     ]
+    },
+    {
+     "id": "LOQ4062",
+     "name": "Laboratório de Engenharia Química III",
+     "credits": 4,
+     "weak": [
+      "LOQ4086",
+      "LOQ4085"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4065",
+     "name": "Engenharia de Processos Químicos II",
+     "credits": 2,
+     "weak": [
+      "LOQ4064"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2042",
+     "name": "Processos Bioquímicos",
+     "credits": 2,
+     "weak": [
+      "LOT2041"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "10º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1031",
+     "name": "Psicologia Organizacional e do Trabalho",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4004",
+     "name": "Controle de Processos Químicos",
+     "credits": 4,
+     "weak": [
+      "LOQ4009",
+      "LOB1056",
+      "LOB1006"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4050",
+     "name": "Engenharia Econômica",
+     "credits": 2,
+     "weak": [
+      "LOB1012"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4078",
+     "name": "Modelagem e Simulação de Processos",
+     "credits": 4,
+     "weak": [
+      "LOQ4002",
+      "LOB1056",
+      "LOQ4057"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4104",
+     "name": "Processos Químicos Industriais",
+     "credits": 4,
+     "weak": [
+      "LOQ4057",
+      "LOQ4055",
+      "LOQ4038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4209",
+     "name": "Engenharia da Qualidade",
+     "credits": 2,
+     "weak": [
+      "LOB1012"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4233",
+     "name": "Gestão de Negócios",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "11º Semestre",
+   "disciplines": [
+    {
+     "id": "LOQ4047",
+     "name": "Trabalho de Conclusão de Curso I",
+     "credits": 1,
+     "weak": [],
+     "strong": [
+      "LOQ4104",
+      "LOQ4003"
+     ]
+    },
+    {
+     "id": "LOQ4051",
+     "name": "Estágio Supervisionado",
+     "credits": 0,
+     "weak": [],
+     "strong": [
+      "LOM3016",
+      "LOB1036",
+      "LOQ4010",
+      "LOQ4095",
+      "LOB1053",
+      "LOB1012",
+      "LOB1052",
+      "LOB1011",
+      "LOB1009",
+      "LOB1039",
+      "LOQ4097",
+      "LOM3081",
+      "LOQ4102",
+      "LOB1038",
+      "LOB1037",
+      "LOB1018",
+      "LOB1024",
+      "LOB1019",
+      "LOB1003",
+      "LOQ4098",
+      "LOQ4103",
+      "LOB1006",
+      "LOB1004",
+      "LOB1056"
+     ]
+    },
+    {
+     "id": "LOQ4063",
+     "name": "Laboratório de Engenharia Química IV",
+     "credits": 4,
+     "weak": [
+      "LOQ4002",
+      "LOQ4004"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "12º Semestre",
+   "disciplines": [
+    {
+     "id": "LOQ4048",
+     "name": "Trabalho de Conclusão do Curso II",
+     "credits": 0,
+     "weak": [],
+     "strong": [
+      "LOQ4047"
+     ]
+    }
+   ]
+  }
+ ]
+}
