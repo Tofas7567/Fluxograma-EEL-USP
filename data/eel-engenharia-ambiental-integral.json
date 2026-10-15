@@ -1,0 +1,722 @@
+{
+ "id": "eel-engenharia-ambiental-integral",
+ "nome": "Engenharia Ambiental",
+ "periodo": "integral",
+ "semesters": [
+  {
+   "label": "1º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1009",
+     "name": "Leitura e Interpretação de Desenho Técnico",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1036",
+     "name": "Geometria Vetorial",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1059",
+     "name": "Fundamentos de Matemática",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1201",
+     "name": "Introdução à Engenharia Ambiental",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1205",
+     "name": "Ecologia Básica",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1254",
+     "name": "Geologia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1268",
+     "name": "Leitura, Escrita e Comunicação Científica",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1269",
+     "name": "Biologia Aplicada",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4097",
+     "name": "Fundamentos de Química para Engenharia I-A",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4231",
+     "name": "Introdução à Econômia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "2º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1018",
+     "name": "Física Newtoniana",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1038",
+     "name": "Laboratório de Física Newtoniana",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1060",
+     "name": "Cálculo Diferencial e Integral",
+     "credits": 4,
+     "weak": [
+      "LOB1059"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1061",
+     "name": "Estruturas Lineares",
+     "credits": 4,
+     "weak": [
+      "LOB1036"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1206",
+     "name": "Solos I",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1270",
+     "name": "Química Experimental Aplicada",
+     "credits": 2,
+     "weak": [
+      "LOQ4097"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3016",
+     "name": "Introdução à Ciência dos Materiais",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ2005",
+     "name": "Laboratório de Empreendedorismo, Inovação e Negócios",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4098",
+     "name": "Fundamentos de Química para Engenharia II-A",
+     "credits": 4,
+     "weak": [
+      "LOQ4097"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2046",
+     "name": "Microbiologia e Bioquimica Aplicadas",
+     "credits": 4,
+     "weak": [
+      "LOB1269"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "3º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1012",
+     "name": "Estatística",
+     "credits": 4,
+     "weak": [
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1019",
+     "name": "Fluidos, Ondas e Termodinâmica",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1024",
+     "name": "Mecânica",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1018",
+      "LOB1036"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1041",
+     "name": "Laboratório de Fluidos, Ondas e Termodinâmica",
+     "credits": 2,
+     "weak": [
+      "LOB1018",
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1052",
+     "name": "Cálculo Vetorial",
+     "credits": 4,
+     "weak": [
+      "LOB1061",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1213",
+     "name": "Climatologia",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1215",
+     "name": "Recursos Energéticos",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4053",
+     "name": "Balanços de Massa e Energia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4081",
+     "name": "Química Orgânica",
+     "credits": 4,
+     "weak": [
+      "LOQ4098"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "4º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1006",
+     "name": "Equações Diferenciais",
+     "credits": 4,
+     "weak": [
+      "LOB1061",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1039",
+     "name": "Laboratório de Eletromagnetismo",
+     "credits": 2,
+     "weak": [
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1044",
+     "name": "Computação Aplicada à Engenharia",
+     "credits": 4,
+     "weak": [
+      "LOB1061",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1053",
+     "name": "Introdução ao Eletromagnetismo",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1052",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1055",
+     "name": "Fundamentos de Engenharia de Segurança no Trabalho",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1208",
+     "name": "Química Analítica Ambiental I",
+     "credits": 4,
+     "weak": [
+      "LOQ4098"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1264",
+     "name": "Toxicologia Ambiental",
+     "credits": 2,
+     "weak": [
+      "LOQ4081",
+      "LOT2046"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3081",
+     "name": "Introdução à Mecânica dos Sólidos",
+     "credits": 2,
+     "weak": [
+      "LOB1024"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4076",
+     "name": "Termodinâmica Aplicada",
+     "credits": 4,
+     "weak": [
+      "LOQ4053"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "5º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1011",
+     "name": "Eletricidade Aplicada",
+     "credits": 2,
+     "weak": [
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1040",
+     "name": "Laboratório de Eletricidade",
+     "credits": 2,
+     "weak": [
+      "LOB1053",
+      "LOB1039"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1209",
+     "name": "Gestão de Resíduos Sólidos",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1212",
+     "name": "Química Analítica Ambiental II",
+     "credits": 4,
+     "weak": [
+      "LOB1208"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1221",
+     "name": "Legislação Ambiental",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1256",
+     "name": "Cartografia e Topografia Aplicadas à Estudos Ambientais",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1271",
+     "name": "Mudanças Climáticas e Sustentabilidade Global",
+     "credits": 4,
+     "weak": [
+      "LOB1213"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4079",
+     "name": "Cinética Aplicada e Reatores",
+     "credits": 2,
+     "weak": [],
+     "strong": [
+      "LOQ4076"
+     ]
+    },
+    {
+     "id": "LOQ4083",
+     "name": "Fenômenos de Transporte I",
+     "credits": 4,
+     "weak": [
+      "LOB1024",
+      "LOB1052"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "6º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1031",
+     "name": "Psicologia Organizacional e do Trabalho",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1214",
+     "name": "Sistemas de Informações Geográficas",
+     "credits": 4,
+     "weak": [
+      "LOB1256"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1226",
+     "name": "Recuperação de Áreas Degradadas",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1228",
+     "name": "Gestão Ambiental na Empresa",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1235",
+     "name": "Avaliação de Impactos Ambientais",
+     "credits": 4,
+     "weak": [
+      "LOB1221"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1258",
+     "name": "Hidráulica Aplicada",
+     "credits": 2,
+     "weak": [
+      "LOQ4083"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1265",
+     "name": "Epidemiologia Ambiental",
+     "credits": 2,
+     "weak": [
+      "LOB1012"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1272",
+     "name": "Saneamento Ambiental",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4084",
+     "name": "Fenômenos de Transporte II",
+     "credits": 4,
+     "weak": [
+      "LOB1006",
+      "LOB1019",
+      "LOQ4083"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "7º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1202",
+     "name": "Introdução ao Gerenciamento de Projetos Ambientais",
+     "credits": 4,
+     "weak": [
+      "LOQ2005"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1211",
+     "name": "Poluição Atmosférica I",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1217",
+     "name": "Operações Unitárias e Processos",
+     "credits": 4,
+     "weak": [
+      "LOQ4084",
+      "LOB1258"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1244",
+     "name": "Monitoramento Ambiental",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1255",
+     "name": "Hidrologia Aplicada",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1266",
+     "name": "Introdução à Ciência de Dados e Aprendizado de Máquinas",
+     "credits": 4,
+     "weak": [
+      "LOB1044"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1273",
+     "name": "Restauração Ecológica",
+     "credits": 4,
+     "weak": [
+      "LOB1205",
+      "LOB1226"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1276",
+     "name": "Poluição do Solo e Água Subterrânea",
+     "credits": 2,
+     "weak": [
+      "LOB1254",
+      "LOB1256"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "8º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1224",
+     "name": "Planejamento Ambiental e Urbanismo",
+     "credits": 2,
+     "weak": [
+      "LOB1235"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1231",
+     "name": "Modelagem Matemática Aplicada",
+     "credits": 4,
+     "weak": [
+      "LOB1006"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1232",
+     "name": "Licenciamento Ambiental",
+     "credits": 4,
+     "weak": [
+      "LOB1235"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1233",
+     "name": "Caracterização de Bacias Hidrográficas",
+     "credits": 2,
+     "weak": [
+      "LOB1214",
+      "LOB1255"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1240",
+     "name": "Geotecnia Ambiental",
+     "credits": 2,
+     "weak": [
+      "LOB1256",
+      "LOB1254"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1257",
+     "name": "Sistemas de Tratamento de Água",
+     "credits": 4,
+     "weak": [
+      "LOB1212",
+      "LOB1258"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1274",
+     "name": "Poluição Atmosférica II",
+     "credits": 2,
+     "weak": [
+      "LOB1211"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1275",
+     "name": "Energia Renováveis",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2035",
+     "name": "Tratamento Biológico de Efluentes",
+     "credits": 3,
+     "weak": [
+      "LOT2046"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "9º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1223",
+     "name": "Trabalho de Graduação I",
+     "credits": 0,
+     "weak": [],
+     "strong": [
+      "LOB1059",
+      "LOB1060",
+      "LOB1018",
+      "LOB1036",
+      "LOB1038",
+      "LOB1268",
+      "LOQ4097",
+      "LOB1009",
+      "LOB1019",
+      "LOB1061",
+      "LOB1041",
+      "LOB1044",
+      "LOB1270",
+      "LOQ4098",
+      "LOB1024",
+      "LOB1039",
+      "LOB1052",
+      "LOB1053",
+      "LOM3016",
+      "LOB1012",
+      "LOB1006",
+      "LOB1011",
+      "LOM3081",
+      "LOB1040"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "10º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1229",
+     "name": "Trabalho de Graduação II",
+     "credits": 0,
+     "weak": [
+      "LOB1223"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1237",
+     "name": "Estágio Supervisionado em Engenharia Ambiental",
+     "credits": 0,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  }
+ ]
+}

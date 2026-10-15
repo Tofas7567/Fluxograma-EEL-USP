@@ -15,6 +15,18 @@
     "arquivo": "eel-engenharia-bioquimica-integral.json"
    },
    {
+    "id": "eel-engenharia-de-materiais-integral",
+    "nome": "Engenharia de Materiais",
+    "periodo": "integral",
+    "arquivo": "eel-engenharia-de-materiais-integral.json"
+   },
+   {
+    "id": "eel-engenharia-de-producao-noturno",
+    "nome": "Engenharia de Produção",
+    "periodo": "noturno",
+    "arquivo": "eel-engenharia-de-producao-noturno.json"
+   },
+   {
     "id": "eel-engenharia-fisica-integral",
     "nome": "Engenharia Física",
     "periodo": "integral",
@@ -31,18 +43,6 @@
     "nome": "Engenharia Química",
     "periodo": "noturno",
     "arquivo": "eel-engenharia-quimica-noturno.json"
-   },
-   {
-    "id": "eel-engenharia-de-materiais-integral",
-    "nome": "Engenharia de Materiais",
-    "periodo": "integral",
-    "arquivo": "eel-engenharia-de-materiais-integral.json"
-   },
-   {
-    "id": "eel-engenharia-de-producao-noturno",
-    "nome": "Engenharia de Produção",
-    "periodo": "noturno",
-    "arquivo": "eel-engenharia-de-producao-noturno.json"
    }
   ]
  }

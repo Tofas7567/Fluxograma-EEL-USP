@@ -7,13 +7,6 @@
    "label": "1º Semestre",
    "disciplines": [
     {
-     "id": "LOB1003",
-     "name": "Cálculo I",
-     "credits": 4,
-     "weak": [],
-     "strong": []
-    },
-    {
      "id": "LOB1009",
      "name": "Leitura e Interpretação de Desenho Técnico",
      "credits": 2,
@@ -22,7 +15,14 @@
     },
     {
      "id": "LOB1036",
-     "name": "Geometria Analítica",
+     "name": "Geometria Vetorial",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1059",
+     "name": "Fundamentos de Matemática",
      "credits": 4,
      "weak": [],
      "strong": []
@@ -61,25 +61,24 @@
    "label": "2º Semestre",
    "disciplines": [
     {
-     "id": "LOB1004",
-     "name": "Cálculo II",
-     "credits": 4,
-     "weak": [
-      "LOB1003",
-      "LOB1036"
-     ],
-     "strong": []
-    },
-    {
      "id": "LOB1018",
-     "name": "Física I",
+     "name": "Física Newtoniana",
      "credits": 4,
      "weak": [],
      "strong": []
     },
     {
-     "id": "LOB1037",
-     "name": "Álgebra Linear",
+     "id": "LOB1060",
+     "name": "Cálculo Diferencial e Integral",
+     "credits": 4,
+     "weak": [
+      "LOB1059"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1061",
+     "name": "Estruturas Lineares",
      "credits": 4,
      "weak": [
       "LOB1036"
@@ -114,11 +113,11 @@
    "disciplines": [
     {
      "id": "LOB1019",
-     "name": "Física II",
+     "name": "Fluidos, Ondas e Termodinâmica",
      "credits": 4,
      "weak": [
-      "LOB1003",
-      "LOB1018"
+      "LOB1018",
+      "LOB1060"
      ],
      "strong": []
     },
@@ -127,34 +126,36 @@
      "name": "Mecânica",
      "credits": 4,
      "weak": [
+      "LOB1018",
       "LOB1036",
-      "LOB1018"
+      "LOB1060"
      ],
      "strong": []
     },
     {
      "id": "LOB1038",
-     "name": "Física Experimental I",
+     "name": "Laboratório de Física Newtoniana",
      "credits": 2,
      "weak": [],
      "strong": []
     },
     {
      "id": "LOB1052",
-     "name": "Cálculo III",
+     "name": "Cálculo Vetorial",
      "credits": 4,
      "weak": [
-      "LOB1004"
+      "LOB1060",
+      "LOB1061"
      ],
      "strong": []
     },
     {
-     "id": "LOB1056",
-     "name": "Introdução aos Métodos Numéricos e Computacionais",
+     "id": "LOQ4037",
+     "name": "Química Orgânica I",
      "credits": 4,
      "weak": [
-      "LOB1036",
-      "LOB1004"
+      "LOQ4097",
+      "LOQ4098"
      ],
      "strong": []
     },
@@ -172,11 +173,11 @@
    "disciplines": [
     {
      "id": "LOB1006",
-     "name": "Cálculo IV",
+     "name": "Equações Diferenciais",
      "credits": 4,
      "weak": [
-      "LOB1004",
-      "LOB1037"
+      "LOB1061",
+      "LOB1060"
      ],
      "strong": []
     },
@@ -185,13 +186,13 @@
      "name": "Estatística",
      "credits": 4,
      "weak": [
-      "LOB1004"
+      "LOB1060"
      ],
      "strong": []
     },
     {
      "id": "LOB1039",
-     "name": "Física Experimental III",
+     "name": "Laboratório de Eletromagnetismo",
      "credits": 2,
      "weak": [
       "LOB1038"
@@ -200,27 +201,27 @@
     },
     {
      "id": "LOB1053",
-     "name": "Física III",
+     "name": "Introdução ao Eletromagnetismo",
      "credits": 4,
      "weak": [
-      "LOB1019",
-      "LOB1004"
+      "LOB1018",
+      "LOB1052",
+      "LOB1060"
      ],
      "strong": []
     },
     {
-     "id": "LOQ4037",
-     "name": "Química Orgânica I",
+     "id": "LOQ4038",
+     "name": "Química Orgânica II",
      "credits": 4,
      "weak": [
-      "LOQ4097",
-      "LOQ4098"
+      "LOQ4037"
      ],
      "strong": []
     },
     {
      "id": "LOQ4055",
-     "name": "Química Inorgânica",
+     "name": "Quimica Inorgânica",
      "credits": 2,
      "weak": [
       "LOQ4097"
@@ -242,12 +243,20 @@
      "strong": []
     },
     {
-     "id": "LOQ4038",
-     "name": "Química Orgânica II",
+     "id": "LOB1044",
+     "name": "Computação Aplicada à Engenharia",
      "credits": 4,
      "weak": [
-      "LOQ4037"
+      "LOB1060",
+      "LOB1061"
      ],
+     "strong": []
+    },
+    {
+     "id": "LOQ2005",
+     "name": "Laboratório de Empreendedorismo, Inovação e Negócios",
+     "credits": 2,
+     "weak": [],
      "strong": []
     },
     {
@@ -255,9 +264,9 @@
      "name": "Química Analítica para Engenharia",
      "credits": 4,
      "weak": [
-      "LOQ4098",
+      "LOB1012",
       "LOQ4095",
-      "LOB1012"
+      "LOQ4098"
      ],
      "strong": []
     },
@@ -266,8 +275,8 @@
      "name": "Fenômenos de Transporte I",
      "credits": 4,
      "weak": [
-      "LOB1052",
-      "LOB1024"
+      "LOB1024",
+      "LOB1052"
      ],
      "strong": []
     },
@@ -276,17 +285,11 @@
      "name": "Termodinâmica Química Aplicada I",
      "credits": 4,
      "weak": [
-      "LOB1019",
-      "LOB1004",
-      "LOQ4053"
+      "LOQ4053",
+      "LOB1060",
+      "LOB1061",
+      "LOB1019"
      ],
-     "strong": []
-    },
-    {
-     "id": "LOQ4234",
-     "name": "Empreendedorismo e Inovação",
-     "credits": 2,
-     "weak": [],
      "strong": []
     }
    ]
@@ -318,8 +321,8 @@
      "credits": 4,
      "weak": [
       "LOB1006",
-      "LOB1019",
-      "LOQ4083"
+      "LOQ4083",
+      "LOB1019"
      ],
      "strong": []
     },
@@ -414,7 +417,7 @@
     },
     {
      "id": "LOQ4002",
-     "name": "Reatores Químicos",
+     "name": "Reatores Quimicos",
      "credits": 4,
      "weak": [
       "LOQ4003"
@@ -442,7 +445,7 @@
     },
     {
      "id": "LOQ4064",
-     "name": "Engenharia de Processos Químicos I",
+     "name": "Engenharia de Processos Quimicos I",
      "credits": 2,
      "weak": [
       "LOQ4054",
@@ -475,7 +478,7 @@
     },
     {
      "id": "LOQ4009",
-     "name": "Instrumentação na Indústria Química",
+     "name": "Instrumentação na Industria Química",
      "credits": 4,
      "weak": [
       "LOQ4083",
@@ -485,11 +488,10 @@
     },
     {
      "id": "LOQ4049",
-     "name": "Projeto na Indústria Química",
+     "name": "Projeto na Industria Química",
      "credits": 2,
      "weak": [
-      "LOQ4086",
-      "LOQ4002"
+      "LOQ4086"
      ],
      "strong": []
     },
@@ -507,8 +509,8 @@
      "name": "Laboratório de Engenharia Química III",
      "credits": 4,
      "weak": [
-      "LOQ4086",
-      "LOQ4085"
+      "LOQ4085",
+      "LOQ4086"
      ],
      "strong": []
     },
@@ -526,7 +528,7 @@
      "name": "Processos Bioquímicos",
      "credits": 2,
      "weak": [
-      "LOT2041"
+      "LOT2004"
      ],
      "strong": []
     }
@@ -547,9 +549,9 @@
      "name": "Controle de Processos Químicos",
      "credits": 4,
      "weak": [
+      "LOB1006",
       "LOQ4009",
-      "LOB1056",
-      "LOB1006"
+      "LOB1044"
      ],
      "strong": []
     },
@@ -568,8 +570,8 @@
      "credits": 4,
      "weak": [
       "LOQ4002",
-      "LOB1056",
-      "LOQ4057"
+      "LOQ4057",
+      "LOB1044"
      ],
      "strong": []
     },
@@ -578,9 +580,9 @@
      "name": "Processos Químicos Industriais",
      "credits": 4,
      "weak": [
-      "LOQ4057",
       "LOQ4055",
-      "LOQ4038"
+      "LOQ4038",
+      "LOQ4057"
      ],
      "strong": []
     },
@@ -592,13 +594,6 @@
       "LOB1012"
      ],
      "strong": []
-    },
-    {
-     "id": "LOQ4233",
-     "name": "Gestão de Negócios",
-     "credits": 2,
-     "weak": [],
-     "strong": []
     }
    ]
   },
@@ -607,12 +602,12 @@
    "disciplines": [
     {
      "id": "LOQ4047",
-     "name": "Trabalho de Conclusão de Curso I",
+     "name": "Projeto de Final de Curso I",
      "credits": 1,
      "weak": [],
      "strong": [
-      "LOQ4104",
-      "LOQ4003"
+      "LOQ4003",
+      "LOQ4104"
      ]
     },
     {
@@ -620,32 +615,7 @@
      "name": "Estágio Supervisionado",
      "credits": 0,
      "weak": [],
-     "strong": [
-      "LOM3016",
-      "LOB1036",
-      "LOQ4010",
-      "LOQ4095",
-      "LOB1053",
-      "LOB1012",
-      "LOB1052",
-      "LOB1011",
-      "LOB1009",
-      "LOB1039",
-      "LOQ4097",
-      "LOM3081",
-      "LOQ4102",
-      "LOB1038",
-      "LOB1037",
-      "LOB1018",
-      "LOB1024",
-      "LOB1019",
-      "LOB1003",
-      "LOQ4098",
-      "LOQ4103",
-      "LOB1006",
-      "LOB1004",
-      "LOB1056"
-     ]
+     "strong": []
     },
     {
      "id": "LOQ4063",
@@ -664,7 +634,7 @@
    "disciplines": [
     {
      "id": "LOQ4048",
-     "name": "Trabalho de Conclusão do Curso II",
+     "name": "Projeto de Final de Curso II",
      "credits": 0,
      "weak": [],
      "strong": [

@@ -1,0 +1,645 @@
+{
+ "id": "eel-engenharia-de-producao-noturno",
+ "nome": "Engenharia de Produção",
+ "periodo": "noturno",
+ "semesters": [
+  {
+   "label": "1º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1009",
+     "name": "Leitura e Interpretação de Desenho Técnico",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1036",
+     "name": "Geometria Vetorial",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1059",
+     "name": "Fundamentos de Matemática",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ2001",
+     "name": "Administração e Organização",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4095",
+     "name": "Química Geral Experimental",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4201",
+     "name": "Introdução à Engenharia de Produção",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4236",
+     "name": "Projeto Integrado de Engenharia de Produção I",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4251",
+     "name": "Fundamentos de Química",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "2º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1018",
+     "name": "Física Newtoniana",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1038",
+     "name": "Laboratório de Física Newtoniana",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1060",
+     "name": "Cálculo Diferencial e Integral",
+     "credits": 4,
+     "weak": [
+      "LOB1059"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1061",
+     "name": "Estruturas Lineares",
+     "credits": 4,
+     "weak": [
+      "LOB1036"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3016",
+     "name": "Introdução à Ciência dos Materiais",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ2002",
+     "name": "Laboratório de Gestão Empresarial",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4203",
+     "name": "Sistemas Produtivos",
+     "credits": 2,
+     "weak": [
+      "LOQ4201"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "3º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1012",
+     "name": "Estatística",
+     "credits": 4,
+     "weak": [
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1019",
+     "name": "Fluidos, Ondas e Termodinâmica",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1041",
+     "name": "Laboratório de Fluidos, Ondas e Termodinâmica",
+     "credits": 2,
+     "weak": [
+      "LOB1018",
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1052",
+     "name": "Cálculo Vetorial",
+     "credits": 4,
+     "weak": [
+      "LOB1061",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4204",
+     "name": "Economia Geral",
+     "credits": 4,
+     "weak": [
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4257",
+     "name": "Gestão de Projetos",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "4º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1006",
+     "name": "Equações Diferenciais",
+     "credits": 4,
+     "weak": [
+      "LOB1061",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1039",
+     "name": "Laboratório de Eletromagnetismo",
+     "credits": 2,
+     "weak": [
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1049",
+     "name": "Estatística Multivariada e Análise de Séries Temporais",
+     "credits": 4,
+     "weak": [
+      "LOB1012"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1053",
+     "name": "Introdução ao Eletromagnetismo",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1052",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ2003",
+     "name": "Gestão da Produção Industrial",
+     "credits": 2,
+     "weak": [],
+     "strong": [
+      "LOQ4203",
+      "LOQ2002"
+     ]
+    },
+    {
+     "id": "LOQ4209",
+     "name": "Engenharia da Qualidade",
+     "credits": 2,
+     "weak": [
+      "LOB1012"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4275",
+     "name": "Lógica Computacional",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "5º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1024",
+     "name": "Mecânica",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1036",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1044",
+     "name": "Computação Aplicada à Engenharia",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1061"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1046",
+     "name": "Engenharia do Meio Ambiente",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4206",
+     "name": "Pesquisa Operacional I",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOB1012",
+      "LOB1061"
+     ]
+    },
+    {
+     "id": "LOQ4237",
+     "name": "Projeto Integrado de Engenharia de Produção II",
+     "credits": 2,
+     "weak": [
+      "LOQ4236",
+      "LOQ2003",
+      "LOQ4257"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4252",
+     "name": "Fundamentos de Fenômenos de Transporte",
+     "credits": 4,
+     "weak": [
+      "LOB1019",
+      "LOB1060"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "6º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1011",
+     "name": "Eletricidade Aplicada",
+     "credits": 2,
+     "weak": [
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1040",
+     "name": "Laboratório de Eletricidade",
+     "credits": 2,
+     "weak": [
+      "LOB1039",
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3081",
+     "name": "Introdução à Mecânica dos Sólidos",
+     "credits": 2,
+     "weak": [
+      "LOB1024"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ2004",
+     "name": "Gestão e Organização do Trabalho",
+     "credits": 4,
+     "weak": [
+      "LOQ2002"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ2005",
+     "name": "Laboratório de Empreendedorismo, Inovação e Negócios",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4076",
+     "name": "Termodinâmica Aplicada",
+     "credits": 4,
+     "weak": [
+      "LOB1019"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4258",
+     "name": "Pesquisa Operacional II",
+     "credits": 2,
+     "weak": [],
+     "strong": [
+      "LOQ4206"
+     ]
+    },
+    {
+     "id": "LOQ4263",
+     "name": "Planejamento e Gestão da Manutenção",
+     "credits": 2,
+     "weak": [],
+     "strong": [
+      "LOB1012"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "7º Semestre",
+   "disciplines": [
+    {
+     "id": "LOQ4213",
+     "name": "Contabilidade e Custos",
+     "credits": 4,
+     "weak": [
+      "LOQ4204"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4238",
+     "name": "Projeto Integrado em Engenharia de Produção III",
+     "credits": 2,
+     "weak": [
+      "LOQ4209"
+     ],
+     "strong": [
+      "LOQ4237"
+     ]
+    },
+    {
+     "id": "LOQ4241",
+     "name": "Sistemas de Apoio à Decisão",
+     "credits": 2,
+     "weak": [
+      "LOQ4206"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4253",
+     "name": "Tecnologia de Processos Químicos",
+     "credits": 2,
+     "weak": [
+      "LOB1046"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4259",
+     "name": "Processos de Desenvolvimento de Serviços",
+     "credits": 2,
+     "weak": [
+      "LOQ2001"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4261",
+     "name": "Planejamento, Programação e Controle da Produção I",
+     "credits": 4,
+     "weak": [
+      "LOQ4258"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4262",
+     "name": "Automação e Controle",
+     "credits": 2,
+     "weak": [
+      "LOB1006",
+      "LOB1011"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4264",
+     "name": "Engenharia da Sustentabilidade",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "8º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1055",
+     "name": "Fundamentos de Engenharia de Segurança no Trabalho",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4217",
+     "name": "Logística e Cadeia de Suprimento",
+     "credits": 4,
+     "weak": [
+      "LOQ4206"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4222",
+     "name": "Engenharia Econômica e Finanças",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4260",
+     "name": "Controle Estatístico da Qualidade",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOB1049"
+     ]
+    },
+    {
+     "id": "LOQ4270",
+     "name": "Planejamento, Programação e Controle da Produção II",
+     "credits": 2,
+     "weak": [],
+     "strong": [
+      "LOQ4261"
+     ]
+    },
+    {
+     "id": "LOQ4271",
+     "name": "Planejamento de Experimentos",
+     "credits": 2,
+     "weak": [
+      "LOB1049"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4272",
+     "name": "Projeto da Fabrica",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "9º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1031",
+     "name": "Psicologia Organizacional e do Trabalho",
+     "credits": 2,
+     "weak": [
+      "LOQ2002"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4223",
+     "name": "Modelagem e Simulação de Sistemas",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOQ4258"
+     ]
+    },
+    {
+     "id": "LOQ4228",
+     "name": "Trabalho de Graduação em Engenharia de Produção I",
+     "credits": 2,
+     "weak": [],
+     "strong": [
+      "LOQ4260",
+      "LOQ4272",
+      "LOQ4270",
+      "LOQ4271",
+      "LOQ4217",
+      "LOQ4222",
+      "LOQ4259",
+      "LOQ4241",
+      "LOQ4238",
+      "LOQ4213",
+      "LOQ2004",
+      "LOQ4263",
+      "LOQ4258",
+      "LOQ4076",
+      "LOM3081",
+      "LOQ4252",
+      "LOB1044",
+      "LOQ4209",
+      "LOQ2005"
+     ]
+    },
+    {
+     "id": "LOQ4244",
+     "name": "Lean Six Sigma",
+     "credits": 2,
+     "weak": [
+      "LOQ4260"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4256",
+     "name": "Gestão Estratégica de Produção",
+     "credits": 2,
+     "weak": [],
+     "strong": [
+      "LOQ4261"
+     ]
+    },
+    {
+     "id": "LOQ4268",
+     "name": "Gestão da Tecnologia da Informação",
+     "credits": 2,
+     "weak": [
+      "LOB1044"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4273",
+     "name": "Gestão de Novos Produtos",
+     "credits": 4,
+     "weak": [
+      "LOQ2004"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "10º Semestre",
+   "disciplines": [
+    {
+     "id": "LOQ4230",
+     "name": "Estágio em Engenharia de Produção",
+     "credits": 0,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4265",
+     "name": "Trabalho de Graduação em Engenharia de Produção II",
+     "credits": 0,
+     "weak": [],
+     "strong": [
+      "LOQ4228"
+     ]
+    }
+   ]
+  }
+ ]
+}

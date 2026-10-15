@@ -1,0 +1,645 @@
+{
+ "id": "eel-engenharia-bioquimica-integral",
+ "nome": "Engenharia Bioquímica",
+ "periodo": "integral",
+ "semesters": [
+  {
+   "label": "1º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1009",
+     "name": "Leitura e Interpretação de Desenho Técnico",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1036",
+     "name": "Geometria Vetorial",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1059",
+     "name": "Fundamentos de Matemática",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4100",
+     "name": "Fundamentos de Química para Engenharia I-B",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2002",
+     "name": "Biologia Celular",
+     "credits": 3,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2043",
+     "name": "Introdução à Engenharia Bioquímica",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2063",
+     "name": "Comunicação Científica em Biotecnologia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "2º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1018",
+     "name": "Física Newtoniana",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1038",
+     "name": "Laboratório de Física Newtoniana",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1060",
+     "name": "Cálculo Diferencial e Integral",
+     "credits": 4,
+     "weak": [
+      "LOB1059"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4095",
+     "name": "Química Geral Experimental",
+     "credits": 2,
+     "weak": [
+      "LOQ4100"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4098",
+     "name": "Fundamentos de Química para Engenharia II-A",
+     "credits": 4,
+     "weak": [
+      "LOQ4100"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2053",
+     "name": "Microbiologia: da Teoria à Prática",
+     "credits": 6,
+     "weak": [
+      "LOT2002"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "3º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1019",
+     "name": "Fluidos, Ondas e Termodinâmica",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1024",
+     "name": "Mecânica",
+     "credits": 4,
+     "weak": [
+      "LOB1036",
+      "LOB1018",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1061",
+     "name": "Estruturas Lineares",
+     "credits": 4,
+     "weak": [
+      "LOB1036"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4053",
+     "name": "Balanços de Massa e Energia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2036",
+     "name": "Química Bioinorgânica",
+     "credits": 3,
+     "weak": [
+      "LOQ4098"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2059",
+     "name": "Química Orgânica Fundamental",
+     "credits": 4,
+     "weak": [
+      "LOQ4098"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "4º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1012",
+     "name": "Estatística",
+     "credits": 4,
+     "weak": [
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1044",
+     "name": "Computação Aplicada à Engenharia",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1061"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1052",
+     "name": "Cálculo Vetorial",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1061"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4087",
+     "name": "Termodinâmica Química Aplicada I",
+     "credits": 4,
+     "weak": [
+      "LOB1019",
+      "LOQ4053",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2005",
+     "name": "Bioquímica Experimental I",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2007",
+     "name": "Bioquímica I",
+     "credits": 3,
+     "weak": [
+      "LOT2002",
+      "LOT2059"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2039",
+     "name": "Estrutura e Química de Materiais Lignocelulósicos",
+     "credits": 3,
+     "weak": [
+      "LOT2059"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "5º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1006",
+     "name": "Equações Diferenciais",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1061"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1039",
+     "name": "Laboratório de Eletromagnetismo",
+     "credits": 2,
+     "weak": [
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1053",
+     "name": "Introdução ao Eletromagnetismo",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1052",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3016",
+     "name": "Introdução à Ciência dos Materiais",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4083",
+     "name": "Fenômenos de Transporte I",
+     "credits": 4,
+     "weak": [
+      "LOB1024",
+      "LOB1052"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4088",
+     "name": "Termodinâmica Química Aplicada II",
+     "credits": 4,
+     "weak": [
+      "LOQ4087"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2006",
+     "name": "Bioquímica Experimental II",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2008",
+     "name": "Bioquímica II",
+     "credits": 3,
+     "weak": [
+      "LOT2007"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2030",
+     "name": "Tecnologia de Conversão de Biomassa Vegetal",
+     "credits": 3,
+     "weak": [
+      "LOT2039"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "6º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1011",
+     "name": "Eletricidade Aplicada",
+     "credits": 2,
+     "weak": [
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1040",
+     "name": "Laboratório de Eletricidade",
+     "credits": 2,
+     "weak": [
+      "LOB1039",
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4084",
+     "name": "Fenômenos de Transporte II",
+     "credits": 4,
+     "weak": [
+      "LOB1006",
+      "LOB1019",
+      "LOQ4083"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4085",
+     "name": "Operações Unitárias I",
+     "credits": 4,
+     "weak": [
+      "LOQ4083"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2028",
+     "name": "Tecnologia de Processos Fermentativos",
+     "credits": 3,
+     "weak": [
+      "LOT2008",
+      "LOT2053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2040",
+     "name": "Engenharia Genética Teórica e Prática",
+     "credits": 5,
+     "weak": [
+      "LOT2053",
+      "LOT2002"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2054",
+     "name": "Engenharia de Segurança do Trabalho e Biossegurança",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2058",
+     "name": "Análise Técnico-Econômica de Bioprocessos",
+     "credits": 2,
+     "weak": [
+      "LOQ4053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2060",
+     "name": "Tecnologia de Biopolímeros",
+     "credits": 2,
+     "weak": [
+      "LOT2059"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2061",
+     "name": "Química Analítica Aplicada a Bioprocessos",
+     "credits": 4,
+     "weak": [
+      "LOT2005",
+      "LOQ4098",
+      "LOQ4095"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "7º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1202",
+     "name": "Introdução ao Gerenciamento de Projetos Ambientais",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4054",
+     "name": "Fenômenos de Transporte III",
+     "credits": 4,
+     "weak": [
+      "LOQ4084"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4086",
+     "name": "Operações Unitárias II",
+     "credits": 4,
+     "weak": [
+      "LOQ4084"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2013",
+     "name": "Engenharia Bioquímica I",
+     "credits": 3,
+     "weak": [
+      "LOT2028"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2017",
+     "name": "Tecnologia de Proteínas",
+     "credits": 3,
+     "weak": [
+      "LOT2007",
+      "LOT2040",
+      "LOT2053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2035",
+     "name": "Tratamento Biológico de Efluentes",
+     "credits": 3,
+     "weak": [
+      "LOT2053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2037",
+     "name": "Instrumentação e Controle de Bioprocessos",
+     "credits": 3,
+     "weak": [
+      "LOB1011",
+      "LOQ4084"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2049",
+     "name": "Genética e Biotecnologia Vegetal",
+     "credits": 3,
+     "weak": [
+      "LOT2008",
+      "LOT2040",
+      "LOT2053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2064",
+     "name": "Empreendedorismo Tecnológico",
+     "credits": 4,
+     "weak": [
+      "LOT2058"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "8º Semestre",
+   "disciplines": [
+    {
+     "id": "LOQ4057",
+     "name": "Operações Unitárias III",
+     "credits": 4,
+     "weak": [
+      "LOQ4054"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4062",
+     "name": "Laboratório de Engenharia Química III",
+     "credits": 4,
+     "weak": [
+      "LOQ4085",
+      "LOQ4086"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2015",
+     "name": "Engenharia Bioquímica II",
+     "credits": 3,
+     "weak": [
+      "LOT2013"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2022",
+     "name": "Modelagem e Simulação de Processos Biotecnológicos",
+     "credits": 3,
+     "weak": [
+      "LOB1044",
+      "LOQ4086"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2023",
+     "name": "Processos Bioquímicos Industriais",
+     "credits": 3,
+     "weak": [
+      "LOQ4086",
+      "LOT2028"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2025",
+     "name": "Reatores Bioquímicos",
+     "credits": 3,
+     "weak": [
+      "LOT2013"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2047",
+     "name": "Laboratório de Engenharia Bioquímica",
+     "credits": 4,
+     "weak": [
+      "LOT2017",
+      "LOT2013"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "9º Semestre",
+   "disciplines": [
+    {
+     "id": "LOT2055",
+     "name": "Estatística em Bioprocessos",
+     "credits": 3,
+     "weak": [
+      "LOT2023",
+      "LOB1011"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOT2062",
+     "name": "Solução de Problemas de Engenharia",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOT2013",
+      "LOT2023",
+      "LOT2049",
+      "LOT2030",
+      "LOT2060",
+      "LOT2017"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "10º Semestre",
+   "disciplines": [
+    {
+     "id": "LOT2044",
+     "name": "Estágio Supervisionado",
+     "credits": 0,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOT2065",
+     "name": "Projeto Final de Curso em Engenharia Bioquímica",
+     "credits": 1,
+     "weak": [
+      "LOT2062",
+      "LOB1202"
+     ],
+     "strong": []
+    }
+   ]
+  }
+ ]
+}

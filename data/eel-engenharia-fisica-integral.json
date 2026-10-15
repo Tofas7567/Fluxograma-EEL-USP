@@ -1,0 +1,560 @@
+{
+ "id": "eel-engenharia-fisica-integral",
+ "nome": "Engenharia Física",
+ "periodo": "integral",
+ "semesters": [
+  {
+   "label": "1º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1036",
+     "name": "Geometria Vetorial",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1059",
+     "name": "Fundamentos de Matemática",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3204",
+     "name": "Desenho Técnico e Projeto Assistido por Computador",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3218",
+     "name": "Introdução à Engenharia Física",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3260",
+     "name": "Computação Científica em Python",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOQ4100",
+     "name": "Fundamentos de Química para Engenharia I-B",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "2º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1018",
+     "name": "Física Newtoniana",
+     "credits": 4,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1038",
+     "name": "Laboratório de Física Newtoniana",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOB1060",
+     "name": "Cálculo Diferencial e Integral",
+     "credits": 4,
+     "weak": [
+      "LOB1059"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1061",
+     "name": "Estruturas Lineares",
+     "credits": 4,
+     "weak": [
+      "LOB1036"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3016",
+     "name": "Introdução à Ciência dos Materiais",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3037",
+     "name": "Química Inorgânica",
+     "credits": 2,
+     "weak": [
+      "LOQ4100"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3236",
+     "name": "Processos de Fabricação",
+     "credits": 4,
+     "weak": [
+      "LOM3204"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4095",
+     "name": "Química Geral Experimental",
+     "credits": 2,
+     "weak": [
+      "LOQ4100"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "3º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1012",
+     "name": "Estatística",
+     "credits": 4,
+     "weak": [
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1019",
+     "name": "Fluidos, Ondas e Termodinâmica",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1041",
+     "name": "Laboratório de Fluidos, Ondas e Termodinâmica",
+     "credits": 2,
+     "weak": [
+      "LOB1018",
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1052",
+     "name": "Cálculo Vetorial",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1061"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3241",
+     "name": "Química de Materiais",
+     "credits": 4,
+     "weak": [],
+     "strong": [
+      "LOM3037"
+     ]
+    },
+    {
+     "id": "LOM3261",
+     "name": "Métodos Numéricos e Aplicações",
+     "credits": 2,
+     "weak": [
+      "LOB1060",
+      "LOM3260"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "4º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1006",
+     "name": "Equações Diferenciais",
+     "credits": 4,
+     "weak": [
+      "LOB1061",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1039",
+     "name": "Laboratório de Eletromagnetismo",
+     "credits": 2,
+     "weak": [
+      "LOB1038"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1053",
+     "name": "Introdução ao Eletromagnetismo",
+     "credits": 4,
+     "weak": [
+      "LOB1018",
+      "LOB1052",
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3081",
+     "name": "Introdução à Mecânica dos Sólidos",
+     "credits": 2,
+     "weak": [
+      "LOB1018"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3217",
+     "name": "Física Estatística",
+     "credits": 4,
+     "weak": [
+      "LOB1019",
+      "LOB1052"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3257",
+     "name": "Mecânica Clássica",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1018"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3269",
+     "name": "Fenômenos de Transporte",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1019"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "5º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1021",
+     "name": "Optica, Relatividade e Física moderna",
+     "credits": 4,
+     "weak": [
+      "LOB1053",
+      "LOB1006"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOB1042",
+     "name": "Laboratório de Óptica e Física Moderna",
+     "credits": 2,
+     "weak": [
+      "LOB1039",
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3205",
+     "name": "Eletromagnetismo",
+     "credits": 4,
+     "weak": [
+      "LOB1052",
+      "LOB1053"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3227",
+     "name": "Métodos Computacionais da Física",
+     "credits": 4,
+     "weak": [
+      "LOB1006",
+      "LOM3260"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3228",
+     "name": "Métodos Experimentais da Física I",
+     "credits": 4,
+     "weak": [
+      "LOB1019"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3253",
+     "name": "Física Matemática",
+     "credits": 4,
+     "weak": [
+      "LOB1060",
+      "LOB1006"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3262",
+     "name": "Circuitos Elétricos - teoria e prática",
+     "credits": 4,
+     "weak": [
+      "LOB1006"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "6º Semestre",
+   "disciplines": [
+    {
+     "id": "LOM3049",
+     "name": "Termodinâmica de Máquinas",
+     "credits": 4,
+     "weak": [
+      "LOB1060"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3095",
+     "name": "Tecnologias Limpas para Geração de Energia",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3226",
+     "name": "Mecânica Quântica",
+     "credits": 4,
+     "weak": [
+      "LOB1021",
+      "LOM3253",
+      "LOM3257"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3229",
+     "name": "Métodos Experimentais da Física II",
+     "credits": 4,
+     "weak": [
+      "LOB1021",
+      "LOM3016"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3238",
+     "name": "Projeto Integrado",
+     "credits": 2,
+     "weak": [
+      "LOM3236"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3243",
+     "name": "Seminários em Engenharia Física",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3246",
+     "name": "Técnicas de Caracterização de Materiais",
+     "credits": 4,
+     "weak": [
+      "LOB1021",
+      "LOM3016"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3263",
+     "name": "Eletrônica Fundamental e Aplicada",
+     "credits": 4,
+     "weak": [
+      "LOM3262"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "7º Semestre",
+   "disciplines": [
+    {
+     "id": "LOM3215",
+     "name": "Física do Estado Sólido",
+     "credits": 4,
+     "weak": [
+      "LOM3226",
+      "LOM3257"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3223",
+     "name": "Materiais e Dispositivos Magnéticos e Supercondutores",
+     "credits": 4,
+     "weak": [
+      "LOM3263"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3233",
+     "name": "Microprocessadores e Microcontroladores: Projetos e Aplicações",
+     "credits": 4,
+     "weak": [
+      "LOM3263"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3234",
+     "name": "Óptica Física",
+     "credits": 4,
+     "weak": [
+      "LOB1021",
+      "LOM3205"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3264",
+     "name": "Fundamentos de Controle",
+     "credits": 4,
+     "weak": [
+      "LOM3227"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "8º Semestre",
+   "disciplines": [
+    {
+     "id": "LOM3219",
+     "name": "Introdução à Nanotecnologia",
+     "credits": 2,
+     "weak": [
+      "LOB1021",
+      "LOM3241"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3230",
+     "name": "Métodos Experimentais da Física III",
+     "credits": 4,
+     "weak": [
+      "LOM3215",
+      "LOM3223"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3259",
+     "name": "Materiais e Dispositivos Eletrônicos",
+     "credits": 4,
+     "weak": [
+      "LOM3263",
+      "LOM3215",
+      "LOM3234"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3265",
+     "name": "Automação",
+     "credits": 2,
+     "weak": [
+      "LOM3264"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOM3267",
+     "name": "Trabalho de Graduação I",
+     "credits": 0,
+     "weak": [
+      "LOM3238"
+     ],
+     "strong": []
+    },
+    {
+     "id": "LOQ4050",
+     "name": "Engenharia Econômica",
+     "credits": 2,
+     "weak": [
+      "LOB1012"
+     ],
+     "strong": []
+    }
+   ]
+  },
+  {
+   "label": "9º Semestre",
+   "disciplines": [
+    {
+     "id": "LOB1031",
+     "name": "Psicologia Organizacional e do Trabalho",
+     "credits": 2,
+     "weak": [],
+     "strong": []
+    },
+    {
+     "id": "LOM3250",
+     "name": "Trabalho de Graduação II",
+     "credits": 0,
+     "weak": [],
+     "strong": [
+      "LOM3267"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "10º Semestre",
+   "disciplines": [
+    {
+     "id": "LOM3210",
+     "name": "Estágio Supervisionado",
+     "credits": 0,
+     "weak": [],
+     "strong": []
+    }
+   ]
+  }
+ ]
+}
